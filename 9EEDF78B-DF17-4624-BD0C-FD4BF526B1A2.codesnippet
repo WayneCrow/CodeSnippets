@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIAlertController ac</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIAlertController *ac = [UIAlertController alertControllerWithTitle:@"&lt;#Title#&gt;" message:@"&lt;#message#&gt;" preferredStyle:UIAlertControllerStyleAlert];
+    
+    [ac addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
+        textField.placeholder = @"&lt;#TFInfoText#&gt;";
+    }];
+    
+    [ac addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
+        textField.placeholder = @"&lt;#TFInfoText#&gt;";
+    }];
+    
+    
+    UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"&lt;#title#&gt;" style:&lt;#(UIAlertActionStyle)#&gt; handler:&lt;#^(UIAlertAction * _Nonnull action)handler#&gt;];
+    
+    UIAlertAction *action2 = [UIAlertAction actionWithTitle:@"&lt;#title#&gt;" style:&lt;#(UIAlertActionStyle)#&gt; handler:&lt;#^(UIAlertAction * _Nonnull action)handler#&gt;];
+    
+    [ac addAction:action1];
+    [ac addAction:action2];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9EEDF78B-DF17-4624-BD0C-FD4BF526B1A2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建弹出输入框</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
