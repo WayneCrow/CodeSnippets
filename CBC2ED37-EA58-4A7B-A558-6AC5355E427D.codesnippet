@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ChangScreenMode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 官方不允许强制代码切换横竖屏 使用黑科技进行切换
+if ([[UIDevice currentDevice] respondsToSelector:@selector(setOrientation:)]) {
+    SEL selector = NSSelectorFromString(@"setOrientation:");
+    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:[UIDevice instanceMethodSignatureForSelector:selector]];
+    [invocation setSelector:selector];
+    [invocation setTarget:[UIDevice currentDevice]];
+    
+    int val = UIInterfaceOrientationPortrait;
+    if ([UIDevice currentDevice].orientation == UIDeviceOrientationPortrait) {
+        val = UIInterfaceOrientationLandscapeRight;
+    }
+    [invocation setArgument:&amp;val atIndex:2];
+    [invocation invoke];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CBC2ED37-EA58-4A7B-A558-6AC5355E427D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ChangeScreenMode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
