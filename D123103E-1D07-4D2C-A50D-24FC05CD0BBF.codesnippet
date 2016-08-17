@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>LazyLoad</string>
+	<string>Method</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - LazyLoad (懒加载)</string>
+	<string>#pragma mark - Method(方法)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9775C264-5734-4F0A-ABEC-6CAC08379556</string>
+	<string>D123103E-1D07-4D2C-A50D-24FC05CD0BBF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>LazyLoad</string>
+	<string>Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
