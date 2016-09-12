@@ -11,11 +11,11 @@
 	<key>IDECodeSnippetContents</key>
 	<string>/** &lt;#Comment#&gt; **/</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D6842AFB-E2F3-47A8-A7A6-5C516DC1DC6E</string>
+	<string>E4C77752-9783-400A-8BEB-BD65437F3D88</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Comment_Obj_C</string>
+	<string>Comment_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
